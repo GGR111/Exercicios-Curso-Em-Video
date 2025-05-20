@@ -1,0 +1,23 @@
+n = int(input('Digite um numero: '))
+d = n*2
+t = n*3
+q = n*4
+c = n*5
+s = n*6
+se = n*7
+o = n*8
+no = n*9
+de = n*10
+print('='*25)
+print('A tabuado do numero {} é'.format(n))
+print('{} x  1 = {}\n'
+      '{} x  2 = {}\n'
+      '{} x  3 = {}\n'
+      '{} x  4 = {}\n'
+      '{} x  5 = {}\n'
+      '{} x  6 = {}\n'
+      '{} x  7 = {}\n'
+      '{} x  8 = {}\n'
+      '{} x  9 = {}\n'
+      '{} x 10 = {}'.format(n,n,n,d,n,t,n,q,n,c,n,s,n,se,n,o,n,no,n,de))
+print('='*25)
